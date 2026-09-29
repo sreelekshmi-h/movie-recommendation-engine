@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎬 Movie Recommendation Engine</h1>
+    <p class="subtitle">Describe the kind of movie you're looking for</p>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="query"
+            placeholder="e.g. mind-bending sci-fi with great plot twists..."
+            autocomplete="off"
+        >
+
+        <button onclick="searchMovies()">
+            Search
+        </button>
+    </div>
+
+    <div id="results"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
